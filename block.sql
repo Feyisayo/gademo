@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `block`
 --
-
+DROP TABLE IF EXISTS `block`;
 CREATE TABLE `block` (
   `bid` int(11) NOT NULL COMMENT 'Primary Key: Unique block ID.',
   `module` varchar(64) NOT NULL DEFAULT '' COMMENT 'The module from which the block originates; for example, ’user’ for the Who’s Online block, and ’block’ for any custom blocks.',
