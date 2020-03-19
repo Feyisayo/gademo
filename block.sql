@@ -239,6 +239,7 @@ INSERT INTO `block` (`bid`, `module`, `delta`, `theme`, `status`, `weight`, `reg
 (210, 'hybridauth', 'hybridauth', 'bootstrap', 0, 0, '-1', 0, 0, '', '', 8),
 (211, 'hybridauth', 'hybridauth', 'nnn', 0, 0, '-1', 0, 0, '', '', 8),
 (212, 'hybridauth', 'hybridauth', 'shiny', 0, 0, '-1', 0, 0, '', '', 8);
+(213, 'feyisayo', 'feyisayo', 'shiny', 0, 0, '-1', 0, 0, '', '', 8);
 
 --
 -- Indexes for dumped tables
